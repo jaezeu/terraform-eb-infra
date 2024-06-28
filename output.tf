@@ -5,3 +5,11 @@ output "app_name" {
 output "env_name" {
   value = aws_elastic_beanstalk_environment.eb_env.name
 }
+
+output "cname" {
+  value = aws_elastic_beanstalk_environment.eb_env.cname
+}
+
+output "endpoint_url" {
+  value = aws_elastic_beanstalk_environment.eb_env.endpoint_url
+}
